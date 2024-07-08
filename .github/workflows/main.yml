@@ -1,15 +1,12 @@
-# GitHub Action for generating a contribution graph with a snake eating your contributions.
-
 name: Generate Snake
 
 # Controls when the action will run. This action runs every 6 hours.
-
 on:
   schedule:
-      # every 6 hours
+    # every 6 hours
     - cron: "0 */6 * * *"
 
-# This command allows us to run the Action automatically from the Actions tab.
+  # This command allows us to run the Action automatically from the Actions tab.
   workflow_dispatch:
 
 # The sequence of runs in this workflow:
@@ -21,20 +18,25 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      # Setup Node.js to use version 16
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
 
-    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
+      # Checks repo under $GITHUB_WORKSHOP, so your job can access it
       - uses: actions/checkout@v2
 
-    # Generates the snake  
+      # Generates the snake
       - uses: Platane/snk@master
         id: snake-gif
         with:
           github_user_name: PIYUSH-JOSHI1
-          # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
+          # These next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-     # show the status of the build. Makes it easier for debugging (if there's any issues).
+      # Show the status of the build. Makes it easier for debugging (if there's any issues).
       - run: git status
 
       # Push the changes
@@ -45,9 +47,10 @@ jobs:
           branch: master
           force: true
 
+      # Deploy to GitHub Pages
       - uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
-          # the output branch we mentioned above
+          # The output branch we mentioned above
           target_branch: output
           build_dir: dist
         env:
