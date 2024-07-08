@@ -18,18 +18,18 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Setup Node.js to use version 16
+      # Setup Node.js to use version 20
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: '20'
 
       # Checks repo under $GITHUB_WORKSHOP, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # Generates the snake
-      - uses: Platane/snk@master
-        id: snake-gif
+      - name: Generate Snake GIF
+        uses: Platane/snk@master
         with:
           github_user_name: PIYUSH-JOSHI1
           # These next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
