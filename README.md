@@ -1,14 +1,10 @@
-<p align="left">
-  <img
-    src="https://komarev.com/ghpvc/?username=piyush-joshi1&label=Profile%20views&color=0e75b6&style=flat"
-    alt="piyush-joshi1"
-  />
+<p align="center">
+ 
 </p>
 
+
 <h1 align="center">
-  <img
-    src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Piyush+Joshi+;Btech+ Computer +Science.+(3rd Year);"
-  />
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=%F0%9F%91%8B+Hi+!!%2CThere;+I'am+Piyush+Joshi+%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F;Btech+Computer+Science.%F0%9F%92%BB+(Third+Year)" alt="Typing SVG" /></a>
 </h1>
 <table style="margin-top: 0px" align="center">
   <tr>
