@@ -14,9 +14,6 @@
   <tr>
     <td>
       <img
-        src="images/WhatsApp Image 2024-07-08 at 8.38.57 PM.jpeg"
-        width="100px"
-      /><img
         src="images/WhatsApp Image 2024-07-08 at 9.59.51 PM (2).jpeg"
         alt=""
         width="400px"
