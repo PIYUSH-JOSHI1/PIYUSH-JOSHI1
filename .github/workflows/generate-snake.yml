@@ -1,10 +1,10 @@
-name: Generate Snake Game from GitHub Contribution Grid
-description: Generates a snake game from a GitHub user contributions grid. Outputs the animation as gif or svg
-author: platane
+name: "generate-snake-game-from-github-contribution-grid"
+description: "Generates a snake game from a GitHub user contributions grid. Output the animation as gif or svg."
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # Every 6 hours
+    # Run every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
@@ -15,22 +15,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Generate Snake Animation
+      - name: Generate Snake Game
         uses: Platane/snk@master
         id: snake-gif
         with:
-          github_user_name: PIYUSH-JOSHI1  # Your GitHub username
+          github_user_name: PIYUSH-JOSHI1
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-      - name: Show build status
+      - name: Show Git Status
         run: git status
 
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main  # Change to your default branch (e.g., main or master)
+          branch: master
           force: true
 
       - name: Deploy to GitHub Pages
@@ -40,4 +40,3 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
