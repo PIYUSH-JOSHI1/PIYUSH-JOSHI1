@@ -91,7 +91,7 @@
     </tr>
   </table>
   
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=piyush-joshi1&theme=radical&hide_border=true" width="100%"/>
+ <img src="https://github-readme-activity-graph.vercel.app/graph?username=piyush-joshi1&theme=tokyo-night&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph" />
 </div>
 
 <br>
