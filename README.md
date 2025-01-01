@@ -2,7 +2,6 @@
  
 </p>
 
-
 <h1 align="left" style="margin-left:10px">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=%F0%9F%91%8B+Hi+!!%2CThere;+I'am+Piyush+Joshi+%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F;Btech+Computer+Science+[Third+Year]" alt="Typing SVG" /></a>
 </h1>
@@ -18,26 +17,20 @@
     </td>
     <td>
       <li>🤝 Always up for Building Project on Innovative Ideas</li>
-
-   <li>🔭 I’m currently working on Andriod Development</li>
-
-  <li>
-        👯 I’m looking to collaborate on
+      <li>🔭 I'm currently working on Android Development</li>
+      <li>
+        👯 I'm looking to collaborate on
         <a href="">Traffic Flow Optimization System</a>
       </li>
-
-   <li>
+      <li>
         👨‍💻 All of my projects are available at
-        <a href="https://piyush-joshi1.github.io/Profilo_Piyush/">My Profilo</a>
+        <a href="https://piyush-joshi1.github.io/Profilo_Piyush/">My Portfolio</a>
       </li>
-      <li>💬 Ask me about Java , C++ , React.js , Firebase , Kali Linux</li>
+      <li>💬 Ask me about Java, C++, React.js, Firebase, Kali Linux</li>
       <li>
         📫 How to reach me
         <a
-          href="mailto:“piyushaundhekar@gamil.com?bcc"
-          ="”piyushaundhekar@gmail.com?subject"
-          ="Can%20you%20help%20”?body"
-          ="I%20am%20looking%20for%20a%20dedicated%20resource%20to%20help%20me%20during%20the%20Holidays"
+          href="mailto:piyushaundhekar@gmail.com?subject=Can%20you%20help%20&body=I%20am%20looking%20for%20a%20dedicated%20resource%20to%20help%20me%20during%20the%20Holidays"
           >Reach Out</a
         >
       </li>
@@ -123,23 +116,21 @@
     </li>
     <li>🥇 Winner in Tantra Hackathon SPPU
     </li>
-    <li>🥈 2nd Runner Up in NextNich Army Hacathon, AIT-Pune
+    <li>🥈 2nd Runner Up in NextNich Army Hackathon, AIT-Pune
     </li>
-    <li>🥉 Grand Final Qualifier Smart India Hackathon , Chennai
+    <li>🥉 Grand Final Qualifier Smart India Hackathon, Chennai
     </li>
 </td>
 <br><br>
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=PIYUSH-JOSHI1&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="">
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=PIYUSH-JOSHI1&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="piyush-joshi1">
 </a> </p>
-
-
 
 <div align="center">
   <h2>🐍 My Contributions 🐍</h2>
   <br />
   <img
     alt="snake eating my contributions"
-    src="https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg"
+    src="https://raw.githubusercontent.com/PIYUSH-JOSHI1/PIYUSH-JOSHI1/output/github-contribution-grid-snake.svg"
   />
 
   <br /><br /><br />
